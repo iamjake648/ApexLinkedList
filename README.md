@@ -1,2 +1,4 @@
 # ApexLinkedList
 A double linked list implemented in Apex, for use in Salesforce environments. Includes add, delete, sort, etc. methods and a node class. 
+
+Salesforce's Apex language has a data structure for storing key/value pairs - maps. It's a pretty powerful structure, allowing you to store any two data type, including SObjects (User, Case, Opp, Etc.) as the key or value. They are not easy or practical to sort, however. I decided a double LinkedList would be prefect for my situation, but soon found that nobody had ever done a LinkedList in Apex. (At least one they had posted on the internet). I decided to implement my own double link list. There are methods to add/delete/getSize, as well as an add in order method which is especially useful. The SNode class can store ANY SObject, as well as an int. It would be relatively simple to modify this to store any datatype you wish. 
